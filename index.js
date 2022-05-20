@@ -4,7 +4,7 @@ import './style.css';
 
 function Converter() {
   const [km, setKm] = useState(0);
-
+  
   function handleChange(e) {
     setKm(e.target.value);
   }
@@ -23,3 +23,4 @@ ReactDOM.render(
   el, 
   document.getElementById('root')
 );
+console.log(useState(0))
